@@ -7,16 +7,16 @@
     <title>Laravel</title>
 </head>
 <body>
-   
+    <h1 > @yield('title')</h1>
     <nav>
         <ul style="display: flex; gap:10px; list-style-type:none;">
-            <li><a href="/" style="text-decoration: none; color:violet;">Home</a></li>
-            <li><a href="/contacts" style="text-decoration: none; color:black;">Contacts</a></li>
-            <li><a href="/about" style="text-decoration: none; color:black;">About</a></li>
+            <li><a href={{ route('home')  }} style="text-decoration: none; color:black;">Home</a></li>
+            <li><a href={{ route('contents')  }} style="text-decoration: none; color:black;">Contacts</a></li>
+            <li><a href={{ route('about') }} style="text-decoration: none; color:black;">About</a></li>
         </ul>
     </nav>
     
-    <h1 >Welcome to Laravel</h1>
+    
     <p>This is a simple Laravel application.</p>
    
 

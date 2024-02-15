@@ -1,6 +1,7 @@
 @extends('layout')
 @section('sectiune1')
-<h1>Pagina Home</h1>
+    @section('title', 'Home')
+
 @endsection
 
 @section('sectiune2')
