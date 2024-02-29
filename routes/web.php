@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MyController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 use function Laravel\Prompts\alert;
@@ -20,3 +21,4 @@ Route::get('/', [MyController::class, 'Home'])-> name('home');
 Route::get('/contacts', [MyController::class, 'Contacts'] )-> name('contents');
 Route::get('/about', [MyController::class, 'About'])-> name('about');
 
+Route::get('/student', [StudentController::class, 'show'])-> name('student');
