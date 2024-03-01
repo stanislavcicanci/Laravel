@@ -15,6 +15,9 @@ class MyController extends Controller
    public function Home() {
         return view('welcome');
     }
+    public function Info() {
+        return view('info');
+    }
 
 
     public function Contacts() {

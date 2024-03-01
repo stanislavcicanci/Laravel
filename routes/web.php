@@ -20,5 +20,5 @@ use function Laravel\Prompts\alert;
 Route::get('/', [MyController::class, 'Home'])-> name('home');
 Route::get('/contacts', [MyController::class, 'Contacts'] )-> name('contents');
 Route::get('/about', [MyController::class, 'About'])-> name('about');
-
+Route::get('/info', [MyController::class, 'Info'])-> name('info');
 Route::get('/student', [StudentController::class, 'show'])-> name('student');

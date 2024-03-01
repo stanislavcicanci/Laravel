@@ -16,6 +16,7 @@
             <li><a href={{ route('home')  }} style="text-decoration: none; color:black;">Home</a></li>
             <li><a href={{ route('contents')  }} style="text-decoration: none; color:black;">Contacts</a></li>
             <li><a href={{ route('about') }} style="text-decoration: none; color:black;">About</a></li>
+            <li><a href={{ route('info') }} style="text-decoration: none; color:black;">Info</a></li>
         </ul>
     </nav>
     
